@@ -1,14 +1,5 @@
 # A03
 
-With Downloading Webstorm : 
-
-Go to https://www.jetbrains.com/community/education/#students 
-
-Apply for the student license using your school Id
-
-After having your license there will be various links to all the jetbrains products you have access to, navigate to the link that says webstorm and download it. 
-
-After downloading it, open up your system preferences and go to version control. Here is where you will link your git download on your local machine. 
 
 **Github** 
 
@@ -21,3 +12,14 @@ When you want to add changes to the remote repo, you can add files to a commit, 
 Other things to note. You can make new **branches* to test stuff with code, so if you are working on something and it doesn't entirely work, you can make a new branch and push to that branch until its finished, then merge the new branch with the main branch, or the main code. 
 
 Unfortunately at times when code can get messy **merge conflicts** occur, which usually happens when two people try to modify the same files, git will throw a flag asking how it should handle the competiting code. In order to resolve the conflict you go into the code and decide what lines of code stay and what needs to go.
+
+
+**With Downloading Webstorm**
+
+Go to https://www.jetbrains.com/community/education/#students 
+
+Apply for the student license using your school Id
+
+After having your license there will be various links to all the jetbrains products you have access to, navigate to the link that says webstorm and download it. 
+
+After downloading it, open up your system preferences and go to version control. Here is where you will link your git download on your local machine. Then you will need to login with your passwords, so that webstorm and directly modify your remote git repository. I think though that's deprecated now, and now you need to use github generated tokens in place of passwords which you assign the permissions the software has. Finally you create a repo on github, then go back into the version control settings on webstorm and link the 2 together.
